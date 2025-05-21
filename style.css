@@ -80,9 +80,7 @@ footer {
     left: 0;
     font-size: 1rem;
     letter-spacing: 1px;
-<<<<<<< HEAD
     box-shadow: 0 -2px 8px rgba(173, 216, 230, 0.10);
-=======
 }
 
 html {
@@ -92,5 +90,4 @@ html {
 #productos {
     padding-top: 80px; /* Ajusta según la altura de tu header */
     margin-top: -80px;
->>>>>>> 166c4448bd4000a5ff8154d644bcf4d6229fadeb
 }
