@@ -96,8 +96,11 @@ html {
     width: 90px;
     height: 90px;
     object-fit: cover;
-    border-radius: 12px;
-    margin-bottom: 15px;
+    border-radius: 16px;
+    margin-bottom: 18px;
+    margin-top: 8px;
     background: #fff0f6;
     padding: 10px;
+    box-shadow: 0 4px 12px rgba(252, 182, 159, 0.18);
+    border: 2px solid #b8c6db;
 }
