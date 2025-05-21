@@ -91,3 +91,13 @@ html {
     padding-top: 80px; /* Ajusta según la altura de tu header */
     margin-top: -80px;
 }
+
+.producto-card img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    background: #fff0f6;
+    padding: 10px;
+}
