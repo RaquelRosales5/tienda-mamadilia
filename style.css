@@ -73,3 +73,12 @@ footer {
     font-size: 1rem;
     letter-spacing: 1px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+#productos {
+    padding-top: 80px; /* Ajusta según la altura de tu header */
+    margin-top: -80px;
+}
