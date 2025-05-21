@@ -1,17 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda Mamadilia</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>hola mundo</h1>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Tienda Mamadilia</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#carrito"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2> hola hola</h2>
+    <main>
+        <section id="inicio" class="hero">
+            <h2>Bienvenidos a Tienda Mamadilia</h2>
+            <p>Los mejores productos al mejor precio</p>
+            <a href="#productos" class="cta-button">Ver Productos</a>
+        </section>
 
-    <h3> pinto</h3>
-      <h1>hola hola</h1>
+        <section id="productos" class="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-grid">
+                <div class="producto-card">
+                    <img src="producto1.jpg" alt="Producto 1">
+                    <h3>Producto 1</h3>
+                    <p>Descripción del producto</p>
+                    <p class="precio">$99.99</p>
+                    <button class="comprar-btn">Agregar al carrito</button>
+                </div>
+                <!-- Agregar más productos aquí -->
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contáctanos</h2>
+            <div class="contacto-info">
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@tiendamamadilia.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Dirección de la tienda</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <p>&copy; 2025 Tienda Mamadilia - Todos los derechos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
